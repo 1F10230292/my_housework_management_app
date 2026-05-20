@@ -16,7 +16,7 @@ export default function ChoreButton() {
   // ヒント： const buttonClassName = isCompleted ? "完了時の色" : "未完了時の色";
 
   const buttonColor =
-  isCompleted ===true
+  isCompleted
   ? "bg-cyan-500 text-white"// 完了時：鮮やかな水色
   : "bg-gray-100 text-gray-400"; // 未完了時：おとなしいグレー
   return (
